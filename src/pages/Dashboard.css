@@ -1,0 +1,25 @@
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+    background: var(--bg-primary);
+}
+
+.dashboard-content {
+    flex: 1;
+    transition: margin-left var(--transition-base);
+    margin-left: 280px;
+}
+
+.dashboard-content.sidebar-closed {
+    margin-left: 80px;
+}
+
+@media (max-width: 1024px) {
+    .dashboard-content {
+        margin-left: 0;
+    }
+
+    .dashboard-content.sidebar-closed {
+        margin-left: 0;
+    }
+}

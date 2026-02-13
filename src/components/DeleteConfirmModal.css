@@ -1,0 +1,82 @@
+.delete-modal-content {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    width: 100%;
+    max-width: 450px;
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-xl);
+    text-align: center;
+}
+
+.delete-modal-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(239, 68, 68, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--error);
+    margin: 0 auto var(--spacing-lg);
+}
+
+.delete-modal-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.delete-modal-body {
+    margin-bottom: var(--spacing-xl);
+}
+
+.delete-modal-body h2 {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+}
+
+.delete-modal-body p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.delete-modal-body strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.delete-modal-footer {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+}
+
+.btn-danger {
+    background: var(--error);
+    color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+    background: #dc2626;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-danger svg {
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 768px) {
+    .delete-modal-content {
+        max-width: 100%;
+    }
+
+    .delete-modal-footer {
+        flex-direction: column-reverse;
+    }
+
+    .delete-modal-footer .btn {
+        width: 100%;
+    }
+}
