@@ -2,7 +2,7 @@
 
 A modern, high-performance User Management Dashboard built with **React** and **Vite**. This project features a premium "Glassmorphism" aesthetic, real-time API integration, and full CRUD capabilities.
 
-Link to tyhe website go and check it out!:-https://user-management-interface-kappa.vercel.app
+Link to the website go and check it out!:-https://user-management-interface-kappa.vercel.app
 
 ![Nexus Dashboard Preview](/Users/admin/.gemini/antigravity/brain/f197bb5d-0059-4884-88b2-f511d6c31ef1/dashboard_user_list_clean_1770886415871.png)
 
